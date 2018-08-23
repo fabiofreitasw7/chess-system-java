@@ -49,6 +49,7 @@ public class Board {
 		if (!positionExists(position)) {
 			throw new BoardException("Position not on the board!");
 		}
+		
 		if (piece(position) == null) {
 			return null;
 		}
